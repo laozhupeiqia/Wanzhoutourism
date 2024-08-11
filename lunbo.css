@@ -1,0 +1,72 @@
+	.col{
+			    width: 25vw;
+			    height: 20vw;
+			    margin: 0 auto;
+			    margin-top: 5vw;
+			    margin-bottom: 60px;
+			    position: relative;
+			    transform: scale(1.5);
+			    color: white;
+			    font-size: 28px;
+			}
+			.col_window{
+			    height: 20vw;/*大小*/
+			    background-color: #11212F;
+			    box-shadow: 0 0 8px black;
+			    cursor: pointer;
+			    position: relative;
+			    overflow: hidden;
+			}
+			.col_con{
+			    position: absolute;
+			    left: 0;
+			    height: 25vw;
+			    transition: left .4s ease;
+			}
+			.col_con>img{
+				height: 20vw;
+			    float: left;
+			}
+			.arrows_Lcon{
+			    width: 45px;
+			    height: 108px;
+			    background: rgba(0, 0, 0, 0.52);
+			    position: absolute;
+			    top: 35%;
+			    left: 0;
+			    cursor: pointer;
+			}
+			.arrows_Rcon{
+			    width: 45px;
+			    height: 108px;
+			    background: rgba(0, 0, 0, 0.52);
+			    position: absolute;
+			    top: 35%;
+			    right: 0;
+			    cursor: pointer;
+			}
+			.dots{
+			    width: 600px;
+			    height: 9px;
+			    margin: 0 auto;
+			    margin-top: 20px;
+			    transform: scale(1.5);
+			    position: absolute;
+			    bottom: 25px;
+			}
+			.dots div{
+			    width: 72px;
+			    margin: 0 auto;
+			}
+			.dots span{
+			    width: 16px;
+			    height: 9px;
+			    background-color: #496274;
+			    float: left;
+			    margin-left: 5px;
+			    border-radius: 50%;
+			    cursor: pointer;
+			}
+			.dots span:hover{
+			    background-color: #768895 !important;
+			}
